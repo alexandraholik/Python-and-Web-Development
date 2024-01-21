@@ -92,7 +92,7 @@ score of one team followed by the score of the other team. Your program should o
 for a win,1 for a draw, 0 if they lose). Write down unit tests, make use of functions and use the concept of separation 
 of concerns. Use GitHub. Use the procedural programming (PP) version (i.e. Session 2 solution) as a starting point.
 
-Solutions: files [tests/test_football_exercise.py](./tests/test_football_exercise.py) and [football_exercise.py](football_exercise.py).
+Solutions: files [tests/test_football_exercise.py](../tests/test_football_exercise.py) and [football_exercise.py](football_exercise.py).
 
 
 

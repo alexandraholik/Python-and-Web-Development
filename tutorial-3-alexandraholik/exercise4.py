@@ -65,7 +65,7 @@ class Circle(Shapes):
         return 2 * math.pi * self.r
 
     def circle_area(self):
-        return (math.pi * self.r) ** 2
+        return math.pi * (self.r ** 2)
 
 class Cylinder(Circle):
     def __init__(self, r, height):
