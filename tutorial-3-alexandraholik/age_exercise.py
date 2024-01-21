@@ -40,7 +40,7 @@ class Person:
 
     def can_vote(self, age_requirement = 18):
         """Returns True if older than voting age."""
-        return self.age >= age_requirement = 18
+        return self.age >= age_requirement
 
     def year_until_retirement(self):
         """Returns the remaining years left until retirement age, 65."""
