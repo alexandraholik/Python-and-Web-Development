@@ -14,8 +14,8 @@ def test_point_distance_from_origin(x, y, expected):
     (1, 2, 1, 2, 0),
     (6, 8, 9, 12, 5)
 ])
-def test_line_length(start_x, start_y, end_x, end_y, expected_length):
-    start_point = point_line.Point(start_x, start_y)
-    end_point = point_line.Point(end_x, end_y)
-    line = point_line.Line(start_point, end_point)
-    assert line.length() == expected_length
+def test_line_length(x1, y1, x2, y2, length):
+    a = point_line.Point(x1, y1)
+    b = point_line.Point(x2, y2)
+    line = point_line.Line(a, b)
+    assert line.length() == length
